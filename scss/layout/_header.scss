@@ -1,0 +1,36 @@
+header{
+    width: 100%;
+    background-color: $color-secundario;
+    font-family: "Playfair Display", serif;
+    text-decoration: none;
+    color: white;
+    
+}
+.nav-bar{
+ ul{
+    display: flex;
+    padding: 1.25rem 3.125rem;
+    justify-content: space-between;
+    list-style: none;
+    li{
+        a{ 
+            display: flex;
+            list-style:none;
+            text-decoration: none;
+            text-align: center;
+            color: white;
+            padding: .625rem;
+
+        }
+    }
+
+ }
+}
+.inicio{
+    background-image: url("../assets/estante-para-libros-modified.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 2.5rem;
+    height: 2.5rem;
+}

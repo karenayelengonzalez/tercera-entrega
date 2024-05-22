@@ -1,0 +1,340 @@
+/*variables*/
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  background-color: black;
+  font-family: "Playfair Display", serif;
+  text-decoration: none;
+  color: white;
+}
+
+.nav-bar ul {
+  display: flex;
+  padding: 1.25rem 3.125rem;
+  justify-content: space-between;
+  list-style: none;
+}
+.nav-bar ul li a {
+  display: flex;
+  list-style: none;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  padding: 0.625rem;
+}
+
+.inicio {
+  background-image: url("../assets/estante-para-libros-modified.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.titulo {
+  padding: 20% 38%;
+  text-align: center;
+  align-self: center;
+}
+.titulo h1 {
+  width: 18.75rem;
+  height: 18.75rem;
+  opacity: 65%;
+  padding: 10% 3.125rem 67%;
+  font-size: 3.125rem;
+  background-color: #FF8F8F;
+  font-family: "Playfair Display", serif;
+}
+
+.button {
+  padding: 10px 10px;
+  text-align: center;
+  align-self: center;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  width: 100%;
+}
+
+.logo-redes img {
+  width: 1.875rem;
+  height: 1.875rem;
+  align-self: center;
+}
+
+.logo-whatssap img {
+  width: 1.875rem;
+  position: fixed;
+  bottom: 0;
+}
+
+.main-genero {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.card-romance {
+  width: 18.75rem;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+.card-genero {
+  width: 100%;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  padding: 6.25rem;
+}
+.card-genero h2 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+.card-genero p {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  background-color: black;
+  text-align: center;
+}
+.card-genero img {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  background-color: black;
+  align-self: center;
+  padding: 1.25rem;
+}
+
+.main-login {
+  background-image: url("../assets/fondo-libro.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  color: white;
+  padding: 12.5rem 12.5rem;
+}
+
+.fieldset {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.199);
+  border-radius: 1.25rem;
+}
+
+.terminosycondiciones {
+  color: white;
+  font-size: xx-small;
+}
+
+.main-genero {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.card-romance {
+  width: 18.75rem;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+.audiolibro {
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 1.25rem;
+}
+
+.cards-personal {
+  background-image: url(../assets/fondo-libros.png);
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-areas: "card1" "card3" "card4" "card2" "card1" "card5" "card6" "card2";
+  gap: 0.625rem;
+  justify-content: center;
+  align-content: center;
+  align-self: center;
+}
+
+.personal1 {
+  background-color: rgba(0, 0, 0, 0);
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  align-self: center;
+}
+.personal1 article {
+  background-color: rgba(255, 255, 255, 0.137);
+  border-style: double;
+  width: 15.625rem;
+  padding: 1.25rem;
+  border-radius: 3.125rem;
+}
+.personal1 article img {
+  width: 100%;
+  border-radius: 1.25rem;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+.personal1 button {
+  padding: 0.625rem;
+  border-radius: 3.125rem;
+  border-color: #FF8F8F;
+}
+
+.personal2 {
+  align-self: center;
+  background-color: rgba(0, 0, 0, 0);
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+.personal2 article {
+  background-color: rgba(255, 255, 255, 0.137);
+  border-style: double;
+  width: 15.625rem;
+  padding: 1.25rem;
+  border-radius: 3.125rem;
+}
+.personal2 article img {
+  width: 100%;
+  border-radius: 1.25rem;
+}
+.personal2 button {
+  padding: 0.625rem;
+  border-radius: 3.125rem;
+  border-color: #FF8F8F;
+  align-items: center;
+}
+
+.personal3 {
+  align-self: center;
+  background-color: rgba(0, 0, 0, 0);
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+.personal3 article {
+  background-color: rgba(255, 255, 255, 0.137);
+  border-style: double;
+  width: 15.625rem;
+  padding: 1.25rem;
+  border-radius: 3.125rem;
+}
+.personal3 article img {
+  width: 100%;
+  border-radius: 1.25rem;
+}
+.personal3 button {
+  padding: 0.625rem;
+  border-radius: 3.125rem;
+  border-color: #FF8F8F;
+}
+
+.personal4 {
+  align-self: center;
+  background-color: rgba(0, 0, 0, 0);
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+.personal4 article {
+  background-color: rgba(255, 255, 255, 0.137);
+  border-style: double;
+  width: 15.625rem;
+  padding: 1.25rem;
+  border-radius: 3.125rem;
+}
+.personal4 article img {
+  width: 100%;
+  border-radius: 1.25rem;
+}
+.personal4 button {
+  padding: 0.625rem;
+  border-radius: 3.125rem;
+  border-color: #FF8F8F;
+}
+
+.personal5 {
+  align-self: center;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0);
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+.personal5 article {
+  background-color: rgba(255, 255, 255, 0.137);
+  border-style: double;
+  width: 15.625rem;
+  padding: 1.25rem;
+  border-radius: 3.125rem;
+}
+.personal5 article img {
+  width: 100%;
+  border-radius: 1.25rem;
+}
+.personal5 button {
+  padding: 0.625rem;
+  border-radius: 3.125rem;
+  border-color: #FF8F8F;
+}
+
+.personal6 {
+  align-self: center;
+  background-color: rgba(0, 0, 0, 0);
+}
+.personal6 article {
+  background-color: rgba(255, 255, 255, 0.137);
+  border-style: double;
+  width: 15.625rem;
+  padding: 1.25rem;
+  border-radius: 3.125rem;
+}
+.personal6 article img {
+  width: 100%;
+  border-radius: 1.25rem;
+}
+.personal6 button {
+  padding: 0.625rem;
+  border-radius: 3.125rem;
+  border-color: #FF8F8F;
+}
+
+/*# sourceMappingURL=style.css.map */

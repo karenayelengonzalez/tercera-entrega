@@ -1,0 +1,17 @@
+/*variables*/
+$color-principal:#FF8F8F;
+$color-secundario:black;
+
+
+@import "./base/reset";
+@import "./layout/header";
+@import "./layout/main-index";
+@import "./layout/footer";
+@import "./layout/main-genero";
+@import "./components/cards-romance-genero";
+@import "./components/cards-genero-genero";
+@import "./layout/main-login";
+@import "./layout/main-genero-nosotros";
+@import "./components/card-romance-nosotros";
+@import "./components/audiolibros-nosotros";
+@import "./components/cards-personal-nosotros";

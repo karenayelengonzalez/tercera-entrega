@@ -1,0 +1,28 @@
+header{
+    width: 100%;
+    background-color: black;
+    font-family: "Playfair Display", serif;
+    text-decoration: none;
+    color: white;
+    
+}
+.nav-bar{
+ ul{
+    display: flex;
+    padding: 1.25rem 3.125rem;
+    justify-content: space-between;
+    list-style: none;
+    li{
+        a{ 
+            display: flex;
+            list-style:none;
+            text-decoration: none;
+            text-align: center;
+            color: white;
+            padding: .625rem;
+
+        }
+    }
+
+ }
+}
